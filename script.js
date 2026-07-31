@@ -26,8 +26,8 @@ const PROJECTS = [
     title: 'Brand Motion',
     category: 'Animación de logos',
     desc: 'Animación de identidad y apertura para plataforma digital.',
-    thumb: '/assets/images/proyecto2.jpg',
-    src: '/assets/videos/proyecto2.mp4'
+    thumb: 'assets/images/animacion_textos.png',
+    src: 'assets/videos/axvisual_logo.mp4'
   },
   {
     id: 'p3',
