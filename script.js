@@ -464,9 +464,9 @@ const $$ = selector => document.querySelectorAll(selector);
     // Aquí podés conectar con endpoint real (API). Por ahora, mailto fallback:
     const subject = encodeURIComponent(`Presupuesto: ${service} — ${name}`);
     const body = encodeURIComponent(`Nombre: ${name}\nEmpresa: ${company}\nServicio: ${service}\n\nMensaje:\n${message}`);
-    const mailto = `mailto:contacto@axvisuals.com?subject=${subject}&body=${body}`;
+    const mailto = `mailto:axstudiovisuals@gmail.com?subject=${subject}&body=${body}`;
     window.location.href = mailto;
-    status.textContent = 'Abrirás tu cliente de correo para enviar la consulta.';
+    status.textContent = 'Te redirigiremos hacía gmail para finalizar el mensaje.';
   });
 })();
 
