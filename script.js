@@ -18,8 +18,8 @@ const PROJECTS = [
     title: 'Motion Graphic Publicitario',
     category: 'Videos publicitarios',
     desc: 'Estilo minimalista para promoción de emprendimiento.',
-    thumb: '/assets/images/animacion_cerveza.png',
-    src: '/assets/videos/cervezas.mp4'
+    thumb: 'assets/images/animacion_cerveza.png',
+    src: 'assets/videos/cervezas.mp4'
   },
   {
     id: 'p2',
