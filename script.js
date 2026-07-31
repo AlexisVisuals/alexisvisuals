@@ -417,9 +417,8 @@ const $$ = selector => document.querySelectorAll(selector);
   if(!el) return;
   // example testimonials
   const DATA = [
-    {name:'María López', company:'BrandCo', text:'AX Visuals elevó nuestra campaña con una narrativa visual impecable.'},
-    {name:'Jorge Ramírez', company:'Startup X', text:'Entrega puntual y estética cinematográfica — 100% recomendable.'},
-    {name:'Ana Torres', company:'Agencia Nova', text:'El equipo entendió nuestro producto y transformó la comunicación.'}
+    {name:'Geronimo Goris', company:'Barberia Doble G', text:'Le sumo aires urbanos a los flyers, videos y más. Valio más que una IA'},
+    {name:'Jorge Ramírez', company:'NS Studio', text:'Maqueta de cuenta profesional 100% adaptada a lo pedido.'},
   ];
 
   DATA.forEach(d=>{
