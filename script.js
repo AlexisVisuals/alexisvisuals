@@ -15,11 +15,11 @@
 const PROJECTS = [
   {
     id: 'p1',
-    title: 'Proyección Urbana',
+    title: 'Motion Graphic Publicitario',
     category: 'Videos publicitarios',
-    desc: 'Campaña de lanzamiento con estética cinematográfica.',
-    thumb: '/assets/images/proyecto1.jpg',
-    src: '/assets/videos/proyecto1.mp4'
+    desc: 'Estilo minimalista para promoción de emprendimiento.',
+    thumb: '/assets/images/animacion_cerveza.png',
+    src: '/assets/videos/cervezas.mp4'
   },
   {
     id: 'p2',
