@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Área Joven — Gobierno de San Javier</title>
+  <meta name="description" content="Área Joven: participación, proyectos y capacitaciones para las juventudes de San Javier.">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script type="module" src="https://unpkg.com/lucide@0.264.0/dist/lucide.esm.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Scroll progress bar -->
+  <div id="progress-bar" aria-hidden="true"></div>
+
+  <!-- NAVBAR -->
+  <header id="main-header" class="navbar transparent">
+    <div class="container nav-inner">
+      <a class="brand" href="#hero">
+        <!-- Small logo placeholder for navbar -->
+        <svg width="36" height="36" viewBox="0 0 100 100" aria-hidden="true" class="logo-sm">
+          <rect x="10" y="10" width="80" height="80" rx="16" fill="#60A5FA" opacity="0.95"></rect>
+          <text x="50" y="58" text-anchor="middle" font-size="40" fill="#fff" font-family="Inter, sans-serif">AJ</text>
+        </svg>
+        <span class="sr-only">Área Joven - San Javier</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#hero">Inicio</a>
+        <a href="#quienes">Quiénes Somos</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#capacitaciones">Capacitaciones</a>
+        <a href="#noticias">Noticias</a>
+        <a href="#anuncios">Anuncios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="hero" class="hero">
+      <!-- Floating geometric background shapes -->
+      <div class="hero-bg">
+        <div class="shape s1"></div>
+        <div class="shape s2"></div>
+        <div class="shape s3"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <!-- Large central logo placeholder (editable) -->
+        <!-- Reemplazar este SVG por el LOGO oficial cuando esté disponible -->
+        <div class="logo-placeholder" id="logo-placeholder" aria-hidden="false">
+          <svg viewBox="0 0 200 200" class="logo-hero" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1">
+                <stop offset="0" stop-color="#60A5FA" />
+                <stop offset="1" stop-color="#2563EB" />
+              </linearGradient>
+            </defs>
+            <rect x="5" y="5" width="190" height="190" rx="24" fill="url(#g1)" opacity="0.9" />
+            <text x="50%" y="58%" text-anchor="middle" font-size="72" font-family="Inter, sans-serif" fill="#fff">AJ</text>
+          </svg>
+        </div>
+
+        <div class="hero-copy">
+          <h1>Impulsamos las ideas de las juventudes.</h1>
+          <p class="lead">Somos un espacio de participación joven del Gobierno de San Javier que trabaja por y para las juventudes, impulsando proyectos, iniciativas y capacitaciones para construir una comunidad más participativa.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#quienes">Conocé más</a>
+            <a class="btn btn-ghost" id="btn-contact" href="https://www.instagram.com/area_joven_sanjavier" target="_blank" rel="noopener noreferrer">Contactanos</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <a href="#carrusel" class="scroll-indicator" aria-label="Bajar a contenido">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </a>
+    </section>
+
+    <!-- CARRUSEL PRINCIPAL -->
+    <section id="carrusel" class="carousel-section">
+      <div class="container">
+        <div class="carousel" id="carousel">
+          <!-- Slides: añadir nuevas .slide aquí en el HTML para editarlas sin tocar JS -->
+
+          <!-- Slide 1 -->
+          <div class="slide active">
+            <img src="assets/images/slide1.jpg" alt="Proyecto destacado 1" loading="lazy">
+            <div class="slide-caption">
+              <h3>Proyectos que transforman</h3>
+              <p>Historias de jóvenes que impulsaron cambios reales en San Javier.</p>
+              <a href="#proyectos" class="btn btn-slide">Ver proyectos</a>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="slide">
+            <img src="assets/images/slide2.jpg" alt="Capacitaciones" loading="lazy">
+            <div class="slide-caption">
+              <h3>Capacitaciones y Talleres</h3>
+              <p>Ofrecemos espacios de formación para potenciar ideas y habilidades.</p>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="slide">
+            <img src="assets/images/slide3.jpg" alt="Eventos comunitarios" loading="lazy">
+            <div class="slide-caption">
+              <h3>Actividades comunitarias</h3>
+              <p>Conectamos juventudes con su comunidad a través de actividades.</p>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <button class="carousel-prev" aria-label="Anterior">&lt;</button>
+          <button class="carousel-next" aria-label="Siguiente">&gt;</button>
+
+          <!-- Indicators -->
+          <div class="carousel-indicators" role="tablist"></div>
+        </div>
+
+        <!-- Comentario: Para añadir nuevas imágenes al carrusel, duplica una .slide y cambia la imagen, título y texto. -->
+      </div>
+    </section>
+
+    <!-- QUIÉNES SOMOS -->
+    <section id="quienes" class="section">
+      <div class="container who-inner">
+        <div class="who-text">
+          <h2>Quiénes somos</h2>
+          <p>Área Joven forma parte del Gobierno de San Javier. Trabajamos por y para las juventudes. Somos un equipo voluntario de jóvenes comprometidos con impulsar actividades, proyectos e iniciativas que fortalezcan la participación juvenil.</p>
+        </div>
+        <div class="who-image">
+          <!-- Imagen institucional placeholder: reemplazar por imagen real en assets/images -->
+          <div class="image-placeholder">Imagen institucional (reemplazar)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUESTRA MISIÓN (tarjetas) -->
+    <section id="mision" class="section glass">
+      <div class="container">
+        <h2>Nuestra misión</h2>
+        <div class="cards-grid">
+          <article class="card">
+            <div class="card-icon" data-icon="users"></div>
+            <h3>Participación</h3>
+            <p>Generamos espacios donde las juventudes pueden expresar sus ideas y ser protagonistas.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" data-icon="lightbulb"></div>
+            <h3>Proyectos</h3>
+            <p>Acompañamos iniciativas que buscan transformar positivamente nuestra comunidad.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" data-icon="book-open"></div>
+            <h3>Capacitaciones</h3>
+            <p>Promovemos talleres y espacios de formación para el desarrollo personal y profesional.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" data-icon="users"></div>
+            <h3>Comunidad</h3>
+            <p>Fortalecemos los vínculos entre jóvenes, instituciones y organizaciones.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS DESTACADOS -->
+    <section id="proyectos" class="section">
+      <div class="container">
+        <h2>Proyectos destacados</h2>
+        <div class="projects-grid">
+          <!-- Proyecto 1 -->
+          <article class="project">
+            <div class="project-image">Imagen proyecto 1</div>
+            <h4>Proyecto Verde</h4>
+            <p>Iniciativa de jóvenes por el cuidado del ambiente en barrios locales.</p>
+            <a class="btn btn-sm" href="#">Ver más</a>
+          </article>
+
+          <!-- Proyecto 2 -->
+          <article class="project">
+            <div class="project-image">Imagen proyecto 2</div>
+            <h4>Emprende Joven</h4>
+            <p>Acompañamiento a emprendimientos juveniles y ferias locales.</p>
+            <a class="btn btn-sm" href="#">Ver más</a>
+          </article>
+
+          <!-- Proyecto 3 -->
+          <article class="project">
+            <div class="project-image">Imagen proyecto 3</div>
+            <h4>Arte Callejero</h4>
+            <p>Espacio de expresión artística y muralismo comunitario.</p>
+            <a class="btn btn-sm" href="#">Ver más</a>
+          </article>
+
+          <!-- Comentario: duplicar .project para añadir más proyectos directamente en HTML -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CAPACITACIONES Y ACTIVIDADES -->
+    <section id="capacitaciones" class="section glass">
+      <div class="container">
+        <h2>Capacitaciones y actividades</h2>
+        <div class="activities-grid">
+          <!-- Actividad 1 -->
+          <article class="activity">
+            <h4>Taller de comunicación</h4>
+            <time datetime="2026-09-12">12 de septiembre, 2026</time>
+            <p>Herramientas para comunicar mejor proyectos comunitarios.</p>
+            <span class="status">Abierta</span>
+          </article>
+
+          <!-- Actividad 2 -->
+          <article class="activity">
+            <h4>Formación en gestión de proyectos</h4>
+            <time datetime="2026-10-03">3 de octubre, 2026</time>
+            <p>Capacitación práctica para diseñar y gestionar iniciativas.</p>
+            <span class="status">Cerrada</span>
+          </article>
+
+          <!-- Comentario: duplicar .activity para añadir nuevas actividades desde el HTML -->
+        </div>
+      </div>
+    </section>
+
+    <!-- NOTICIAS -->
+    <section id="noticias" class="section">
+      <div class="container">
+        <h2>Noticias de la Juventud</h2>
+        <div class="news-grid">
+          <!-- Noticia 1 -->
+          <article class="news">
+            <img src="assets/images/news1.jpg" alt="Noticia 1" loading="lazy">
+            <div class="news-meta"><time datetime="2026-07-15">15 de julio, 2026</time><span class="category">Actividad</span></div>
+            <h4>Torneo de fútbol juvenil</h4>
+            <p>Gran participación en el torneo organizado por jóvenes del barrio centro.</p>
+            <a class="btn btn-sm" href="#">Leer más</a>
+          </article>
+
+          <!-- Noticia 2 -->
+          <article class="news">
+            <img src="assets/images/news2.jpg" alt="Noticia 2" loading="lazy">
+            <div class="news-meta"><time datetime="2026-06-05">5 de junio, 2026</time><span class="category">Comunicado</span></div>
+            <h4>Apertura de inscripciones</h4>
+            <p>Se abren las inscripciones para los talleres de verano.</p>
+            <a class="btn btn-sm" href="#">Leer más</a>
+          </article>
+
+          <!-- Comentario: añadir nuevas noticias duplicando .news en el HTML -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ANUNCIOS -->
+    <section id="anuncios" class="section glass">
+      <div class="container">
+        <h2>Anuncios</h2>
+        <div class="announcements">
+          <!-- Ejemplo de anuncio: para añadir/editar/eliminar, modificar directamente el HTML dentro de esta sección -->
+
+          <!-- Anuncio 1 -->
+          <article class="announcement">
+            <div class="ann-icon" data-icon="bell"></div>
+            <div class="ann-body">
+              <div class="ann-meta"><time datetime="2026-08-01">1 de agosto, 2026</time> <span class="ann-cat">Importante</span></div>
+              <h4>Reunión abierta de voluntades</h4>
+              <p>Convocatoria para jóvenes interesados en sumarse al equipo de Área Joven.</p>
+            </div>
+            <a class="btn btn-xs" href="#">Leer</a>
+          </article>
+
+          <!-- Para probar: comenta o elimina todos los .announcement y el sitio mostrará un mensaje automático si no hay anuncios. -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ESTADÍSTICAS -->
+    <section id="estadisticas" class="section stats">
+      <div class="container">
+        <h2>Estadísticas</h2>
+        <div class="stats-grid">
+          <div class="stat">
+            <div class="num" data-target="12500">0</div>
+            <p>Jóvenes alcanzados</p>
+          </div>
+          <div class="stat">
+            <div class="num" data-target="230">0</div>
+            <p>Proyectos acompañados</p>
+          </div>
+          <div class="stat">
+            <div class="num" data-target="480">0</div>
+            <p>Capacitaciones realizadas</p>
+          </div>
+          <div class="stat">
+            <div class="num" data-target="760">0</div>
+            <p>Actividades desarrolladas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="section">
+      <div class="container">
+        <h2>Galería</h2>
+        <div class="gallery-grid">
+          <!-- Añadir nuevas .gallery-item imágenes directamente en el HTML -->
+          <figure class="gallery-item"><img src="assets/images/gallery1.jpg" alt="Galería 1"><figcaption>Evento comunitario</figcaption></figure>
+          <figure class="gallery-item"><img src="assets/images/gallery2.jpg" alt="Galería 2"><figcaption>Taller de formación</figcaption></figure>
+          <figure class="gallery-item"><img src="assets/images/gallery3.jpg" alt="Galería 3"><figcaption>Proyecto Verde</figcaption></figure>
+        </div>
+      </div>
+
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button class="lb-close" aria-label="Cerrar">✕</button>
+        <img src="" alt="">
+        <p class="lb-caption"></p>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section glass contact-section">
+      <div class="container">
+        <h2>Contacto</h2>
+        <p class="contact-instructions">No usamos formulario. Comunicate con nosotros por las siguientes vías:</p>
+        <div class="contact-grid">
+          <a class="contact-card primary" href="https://www.instagram.com/area_joven_sanjavier" target="_blank" rel="noopener noreferrer">
+            <div class="icon" data-icon="instagram"></div>
+            <div>
+              <h4>Instagram</h4>
+              <p>@area_joven_sanjavier</p>
+            </div>
+          </a>
+
+          <a class="contact-card" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <div class="icon" data-icon="facebook"></div>
+            <div>
+              <h4>Facebook</h4>
+              <p>Área Joven - San Javier</p>
+            </div>
+          </a>
+
+          <a class="contact-card" href="mailto:areajoven@sanjavier.gob.ar">
+            <div class="icon" data-icon="mail"></div>
+            <div>
+              <h4>Correo electrónico</h4>
+              <p>areajoven@sanjavier.gob.ar</p>
+            </div>
+          </a>
+
+          <a class="contact-card" href="https://wa.me/5490000000000" target="_blank" rel="noopener noreferrer">
+            <div class="icon" data-icon="phone"></div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p>+54 9 0000 000000</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>Enlaces rápidos</h4>
+        <nav class="footer-links">
+          <a href="#hero">Inicio</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#capacitaciones">Capacitaciones</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+
+      <div class="footer-col">
+        <h4>Redes</h4>
+        <div class="socials">
+          <a href="https://www.instagram.com/area_joven_sanjavier" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <p>areajoven@sanjavier.gob.ar</p>
+        <button id="back-to-top" class="btn btn-ghost">Volver arriba</button>
+      </div>
+    </div>
+    <div class="copyright">© Área Joven - Gobierno de San Javier — Todos los derechos reservados</div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
