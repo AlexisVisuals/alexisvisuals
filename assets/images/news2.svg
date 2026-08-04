@@ -1,0 +1,9 @@
+<!-- news2.svg placeholder -->
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#fff"/>
+  <rect x="28" y="28" width="744" height="200" rx="12" fill="#8BBF6A" opacity="0.12"/>
+  <g fill="#1A1A1A" font-family="Inter, sans-serif">
+    <text x="40" y="80" font-size="28" font-weight="700">Apertura de inscripciones</text>
+    <text x="40" y="118" font-size="16">Se abren las inscripciones para los talleres de verano.</text>
+  </g>
+</svg>

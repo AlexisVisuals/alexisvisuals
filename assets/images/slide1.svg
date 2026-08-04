@@ -1,0 +1,15 @@
+<!-- slide1.svg placeholder -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="#f8fafc"/>
+  <rect x="60" y="60" width="1080" height="580" rx="20" fill="url(#g)" opacity="0.12"/>
+  <g fill="#1A1A1A" font-family="Inter, sans-serif">
+    <text x="80" y="160" font-size="48" font-weight="700">Proyecto destacado 1</text>
+    <text x="80" y="220" font-size="22">Historias de jóvenes que impulsaron cambios reales en San Javier.</text>
+  </g>
+</svg>

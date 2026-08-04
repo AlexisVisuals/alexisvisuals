@@ -1,0 +1,15 @@
+<!-- slide2.svg placeholder -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0" stop-color="#8BBF6A"/>
+      <stop offset="1" stop-color="#5A7D4D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="#fff"/>
+  <rect x="80" y="80" width="1040" height="540" rx="18" fill="url(#g2)" opacity="0.12"/>
+  <g fill="#1A1A1A" font-family="Inter, sans-serif">
+    <text x="100" y="170" font-size="48" font-weight="700">Capacitaciones y Talleres</text>
+    <text x="100" y="230" font-size="22">Ofrecemos espacios de formación para potenciar ideas y habilidades.</text>
+  </g>
+</svg>

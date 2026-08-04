@@ -1,0 +1,9 @@
+<!-- news1.svg placeholder -->
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#fff"/>
+  <rect x="28" y="28" width="744" height="200" rx="12" fill="#60A5FA" opacity="0.12"/>
+  <g fill="#1A1A1A" font-family="Inter, sans-serif">
+    <text x="40" y="80" font-size="28" font-weight="700">Torneo de fútbol juvenil</text>
+    <text x="40" y="118" font-size="16">Gran participación en el torneo organizado por jóvenes del barrio centro.</text>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<!-- slide3.svg placeholder -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#fbfdff"/>
+  <circle cx="980" cy="140" r="160" fill="#60A5FA" opacity="0.12" />
+  <g fill="#1A1A1A" font-family="Inter, sans-serif">
+    <text x="80" y="160" font-size="48" font-weight="700">Actividades comunitarias</text>
+    <text x="80" y="220" font-size="22">Conectamos juventudes con su comunidad a través de actividades.</text>
+  </g>
+</svg>

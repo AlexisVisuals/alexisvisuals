@@ -1,0 +1,6 @@
+<!-- placeholder-institucional.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520">
+  <rect width="800" height="520" fill="#fff"/>
+  <rect x="40" y="40" width="720" height="320" rx="12" fill="#f3f6fb"/>
+  <text x="60" y="420" font-family="Inter, sans-serif" font-size="18" fill="#6b7280">Imagen institucional (reemplazar)</text>
+</svg>

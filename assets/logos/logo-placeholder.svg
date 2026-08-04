@@ -1,0 +1,11 @@
+<!-- logo-placeholder.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="lg" x1="0" x2="1">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="28" fill="url(#lg)"/>
+  <text x="50%" y="58%" text-anchor="middle" font-family="Inter, sans-serif" font-size="72" fill="#fff">AJ</text>
+</svg>
